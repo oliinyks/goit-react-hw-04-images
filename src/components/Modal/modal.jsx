@@ -3,7 +3,6 @@ import PropTypes from 'prop-types';
 import './modal.scss';
 
 export default function Modal ({ url, closeModal }) {
-//   const [url, setUrl] = useState(url);
 
   const handleKeyDown = e => {
     if (e.code === 'Escape') {
