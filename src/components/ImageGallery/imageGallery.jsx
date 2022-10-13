@@ -3,7 +3,8 @@ import PropTypes from 'prop-types';
 import ImageGalleryItem from '../ImageGalleryItem';
 import './imageGallery.scss';
 
-const ImageGallery = ({ photoName, onClick }) => (
+export default function ImageGallery ({ photoName, onClick }){
+	return(
   <ul className="gallery">
     {photoName.map(photo => (
       <ImageGalleryItem
@@ -13,10 +14,10 @@ const ImageGallery = ({ photoName, onClick }) => (
       />
     ))}
   </ul>
-);
+	)
+} 
+
 ImageGallery.propTypes = {
 	photoName: PropTypes.array.isRequired,
   onClick: PropTypes.func.isRequired,
 };
-
-export default ImageGallery;

@@ -1,9 +1,10 @@
 import React from 'react';
 import './loader.scss';
 
-const Loader = () => (
-	<section className="loading">
-	<div className="spinner"></div>
- </section>
-);
-export default Loader;
+export default function Loader() {
+  return (
+    <section className="loading">
+      <div className="spinner"></div>
+    </section>
+  );
+}
