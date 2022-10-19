@@ -1,8 +1,8 @@
 {
-  "name": "goit-react-hw-04-images",
+  "name": "image-search-gallery",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://goitacademy.github.io/goit-react-hw-04-images/",
+  "homepage": "https://goitacademy.github.io/image-search-gallery/",
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.3",
     "@testing-library/react": "^12.1.4",
